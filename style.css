@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#clearAll,
+#checkIcon,
+#editBtn,
+#deleteBtn,
+#addBtn {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+    margin: 0 auto;
+    height: 650px;
+    width: 700px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px auto;
+    height: 0;
+}
+
+#inputField {
+    margin-left: 99px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 30px;
+    background: #f8f8f8;
+    color: gray;
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border-radius: 15px;
+
+}
+
+#inputField:focus {
+    background: white;
+    color: black;
+}
+
+#clearAll {
+    height: 40px;
+    width: 50px;
+    transition: all 0.8 ease-out;
+}
+
+#clearAll:hover {
+    height: 35px;
+    width: 45px;
+}
+
+#addBtn {
+    margin-right: 15px;
+    height: 40px;
+    width: 50px;
+    transition: all 0.8 ease-out;
+
+}
+
+#addBtn:hover {
+    height: 35px;
+    width: 45px;
+}
+
+.toDoContainer {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    font-size: 25px;
+    margin: 0 auto;
+    height: 550px;
+    width: 490px;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    background: white;
+    border-bottom:
+}
+
+#item {
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+
+    width: 490px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#checkIcon {
+    margin: 0 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+#checkIcon:hover {
+    flex-basis: 8%;
+}
+
+#text {
+
+    align-self: center;
+    flex-basis: 85%;
+}
+
+#deleteBtn {
+    justify-self: center;
+    align-self: center;
+    flex-basis: 10%;
+}
+
+#deleteBtn:hover {
+    flex-basis: 8%;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: show;
+}
+
+#editBtn {
+    justify-self: center;
+    align-self: center;
+    flex-basis: 10%;
+
+}
+
+#editBtn:hover {
+    flex-basis: 8%;
+}
+
+.blackGroundGreen {
+    background: green;
+}
+
+.greenbg {
+    background: linear-gradient(to right, green, lightgreen);
+}
